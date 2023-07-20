@@ -29,4 +29,4 @@ fetchETL = PythonOperator(
     dag=dag, 
 )
 
-run_etl
+fetchETL
